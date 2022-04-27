@@ -8,6 +8,13 @@
     margin: 0px;
 }
 
+:root {
+    --fonte1: Verdana, Geneva,  Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    font-size: 1em;
+}
+
 html, body {
     min-height: 100vh;
     background-color: darkgray;
@@ -23,7 +30,8 @@ header > h1 {
     font-family: 'Passion One', cursive;
     padding-top: 50px;
     font-variant: small-caps;
-    
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p {
@@ -45,6 +53,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -58,7 +68,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(82, 82, 82);
 }
 
